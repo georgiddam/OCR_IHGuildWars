@@ -3,7 +3,7 @@ import java.awt.event.InputEvent;
 import java.awt.event.KeyEvent;
 import java.awt.image.BufferedImage;
 
-public class RobotScreenInteraction {
+public class RobotInteractions {
     Robot robot;
     {
         try {
