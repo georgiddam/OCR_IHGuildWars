@@ -1,24 +1,23 @@
 import net.sourceforge.tess4j.Tesseract;
 import net.sourceforge.tess4j.TesseractException;
-
-import java.awt.*;
 import java.awt.image.BufferedImage;
 import java.io.File;
 import java.io.IOException;
+import java.util.Random;
 
 public class ApplicationController {
 
     public static void main(String[] args) throws IOException, InterruptedException {
+        Random rand = new Random();
 
-        String[] enemyToAttack = {"frozenwolves"};
+        String[] enemyToAttack = {"frozenwolves", "rabenhorst"};
 
         boolean isRemainingAttacks = true;
         boolean isEnemyAttack = false;
 //      wait a bit for this to start.
         Thread.sleep(3000);
         while (isRemainingAttacks) {
-//          Wait for the 10 sec to pass
-            Thread.sleep(10000);
+//
 
 //          Instantiate stuff
             RobotScreenInteraction rSI = new RobotScreenInteraction();
@@ -41,17 +40,21 @@ public class ApplicationController {
             cropAttacks = readImage.scaleAndBlackWhite(cropAttacks, 2);
             readImage.saveFile(cropAttacks, remainingAttacksFilename, "png");
 
+//          Wait a bit for stuff to be processed and saved
+            Thread.sleep(2000);
+
+//          TODO Maybe put all this in a different class? Not sure. This main looks too big
 //          Setup tesseract
             Tesseract tess = new Tesseract();
             tess.setDatapath("tessdata");
             tess.setLanguage("eng");
-            System.out.println("Tesseract set up, start analysing image");
+//            System.out.println("Tesseract set up, start analysing image");
             try {
                 String enemyName = tess.doOCR(new File(enemyNameFilename + ".png"));
                 String remainingAttacks = tess.doOCR(new File(remainingAttacksFilename + ".png"));
-                System.out.println("Enemy Name: " + enemyName + " Remaining Attacks: " + remainingAttacks);
+//                System.out.println("Enemy Name: " + enemyName + " Remaining Attacks: " + remainingAttacks);
                 if(remainingAttacks.equals("0/40")) {
-                    System.out.println("Out of attacks, stop program");
+//                    System.out.println("Out of attacks, stop program");
                     isRemainingAttacks = false;
                 } else {
                     for(String e : enemyToAttack) {
@@ -59,6 +62,12 @@ public class ApplicationController {
                         e = e.toLowerCase();
                         e = e.trim();
                         e = e.replace(" ", "");
+
+                        enemyName = enemyName.toLowerCase();
+                        enemyName = enemyName.trim();
+                        enemyName = enemyName.replace(" ", "");
+
+                        System.out.println("Need to attack: " + e + " : Current Enemy " + enemyName);
                         if(enemyName.contains(e)) {
                             isEnemyAttack = true;
                         }
@@ -74,6 +83,9 @@ public class ApplicationController {
                     rSI.mouseClickMatchup();
                 }
             }
+
+//          Wait for the 10 sec to pass
+            Thread.sleep(10000 + rand.nextInt(3)*1000);
         }
     }
 }

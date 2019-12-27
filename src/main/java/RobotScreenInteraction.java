@@ -31,6 +31,7 @@ public class RobotScreenInteraction {
         robot.keyPress(KeyEvent.VK_ESCAPE);
         robot.keyRelease(KeyEvent.VK_ESCAPE);
         Thread.sleep(2000);
+        mouseClickMatchup();
     }
 
     public void mouseClickMatchup(){

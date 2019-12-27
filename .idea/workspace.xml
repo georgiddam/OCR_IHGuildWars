@@ -7,18 +7,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d19ed6a5-4030-4681-828f-fd46fcadfcfe" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/IH.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/IHGuildWars.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/beforeManipulation.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/enemyName.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/imgdata/IH.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/IHGuildWars_jar/saved.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/IHGuildWars_jar/savedName.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/remainingAttacks.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/saved.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ApplicationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ApplicationController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/CropImage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/CropImage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ReadImage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ReadImage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/RobotScreenInteraction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/RobotScreenInteraction.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -95,53 +88,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
-      <module name="OCR_IHGuildWars" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
-      <module name="OCR_IHGuildWars" />
-      <option name="filePath" />
-      <option name="vmParameters" />
-      <option name="alternativeJrePath" />
-      <option name="programParameters" />
-      <option name="passParentEnvs" value="true" />
-      <option name="workingDirectory" />
-      <option name="isAlternativeJrePathEnabled" value="false" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="filePath" />
-      <option name="vmParameters" />
-      <option name="alternativeJrePath" />
-      <option name="programParameters" />
-      <option name="passParentEnvs" value="true" />
-      <option name="workingDirectory" />
-      <option name="isAlternativeJrePathEnabled" value="false" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
       <item itemvalue="Application.ReadImage" />
       <item itemvalue="Application.Main" />
@@ -178,6 +124,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="552" y="179" key="#Project_Structure/0.0.1920.1040@0.0.1920.1040" timestamp="1577282054074" />
+    <state x="690" y="275" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog" timestamp="1577454367738">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="690" y="275" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1577454367738" />
     <state x="414" y="175" width="1092" height="776" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1577383580068">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -202,38 +152,38 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="262" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1577383540969" />
-    <state width="1921" height="356" key="GridCell.Tab.0.bottom" timestamp="1577410204433">
+    <state width="1921" height="356" key="GridCell.Tab.0.bottom" timestamp="1577452991627">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1921" height="356" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1577410204433" />
-    <state width="1921" height="356" key="GridCell.Tab.0.center" timestamp="1577410204433">
+    <state width="1921" height="356" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1577452991627" />
+    <state width="1921" height="356" key="GridCell.Tab.0.center" timestamp="1577452991627">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1921" height="356" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1577410204433" />
-    <state width="1921" height="356" key="GridCell.Tab.0.left" timestamp="1577410204433">
+    <state width="1921" height="356" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1577452991627" />
+    <state width="1921" height="356" key="GridCell.Tab.0.left" timestamp="1577452991627">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1921" height="356" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1577410204433" />
-    <state width="1921" height="356" key="GridCell.Tab.0.right" timestamp="1577410204433">
+    <state width="1921" height="356" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1577452991627" />
+    <state width="1921" height="356" key="GridCell.Tab.0.right" timestamp="1577452991627">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1921" height="356" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1577410204433" />
-    <state width="1921" height="356" key="GridCell.Tab.1.bottom" timestamp="1577410204433">
+    <state width="1921" height="356" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1577452991627" />
+    <state width="1921" height="356" key="GridCell.Tab.1.bottom" timestamp="1577452991627">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1921" height="356" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1577410204433" />
-    <state width="1921" height="356" key="GridCell.Tab.1.center" timestamp="1577410204433">
+    <state width="1921" height="356" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1577452991627" />
+    <state width="1921" height="356" key="GridCell.Tab.1.center" timestamp="1577452991627">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1921" height="356" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1577410204433" />
-    <state width="1921" height="356" key="GridCell.Tab.1.left" timestamp="1577410204433">
+    <state width="1921" height="356" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1577452991627" />
+    <state width="1921" height="356" key="GridCell.Tab.1.left" timestamp="1577452991627">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1921" height="356" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1577410204433" />
-    <state width="1921" height="356" key="GridCell.Tab.1.right" timestamp="1577410204433">
+    <state width="1921" height="356" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1577452991627" />
+    <state width="1921" height="356" key="GridCell.Tab.1.right" timestamp="1577452991627">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1921" height="356" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1577410204433" />
+    <state width="1921" height="356" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1577452991627" />
     <state x="625" y="219" key="NewModule_or_Project.wizard" timestamp="1577284226712">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

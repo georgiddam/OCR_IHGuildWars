@@ -1,2 +1,4 @@
 
 *.png
+*.kotlin_module
+.idea/workspace.xml

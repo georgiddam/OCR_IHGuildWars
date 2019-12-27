@@ -27,13 +27,13 @@ public class ReadImage {
     public void saveFile(BufferedImage img, String name, String extension) throws IOException {
         File outputFile = new File(name + "." + extension);
         ImageIO.write(img, extension, outputFile);
-        System.out.println("Finished saving file");
+//        System.out.println("Finished saving file");
     }
 
 //  Convert to negative
     public BufferedImage invertImage(BufferedImage img) {
 
-        System.out.println("Start Inversing");
+//        System.out.println("Start Inversing");
         int width = img.getWidth();
         int height = img.getHeight();
 
