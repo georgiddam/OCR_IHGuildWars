@@ -8,10 +8,16 @@
   <component name="ChangeListManager">
     <list default="true" id="d19ed6a5-4030-4681-828f-fd46fcadfcfe" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/IHGuildWars_jar/IHGuildWars.jar" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/IHGuildWars_jar/IHGuildWars.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ApplicationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ApplicationController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/CropImage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/CropImage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ReadImage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ReadImage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/RobotScreenInteraction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/RobotScreenInteraction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/RobotInteractions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/RobotInteractions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/TessSetup.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TessSetup.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ApplicationController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ApplicationController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ReadImage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ReadImage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/RobotScreenInteraction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/TessSetup.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/TessSetup.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -136,6 +142,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="703" y="323" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1577286032762" />
+    <state x="765" y="221" key="#com.intellij.ide.util.MemberChooser" timestamp="1577456402416">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="765" y="221" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1577456402416" />
     <state x="689" y="347" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1577311016473">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -148,26 +158,26 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="540" y="175" key="#com.intellij.openapi.projectRoots.ui.ProjectJdksEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1577383562221" />
-    <state x="740" y="262" key="FileChooserDialogImpl" timestamp="1577383540969">
+    <state x="740" y="262" key="FileChooserDialogImpl" timestamp="1577980836137">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="740" y="262" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1577383540969" />
-    <state width="1921" height="356" key="GridCell.Tab.0.bottom" timestamp="1577452991627">
+    <state x="740" y="262" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1577980836137" />
+    <state width="1921" height="288" key="GridCell.Tab.0.bottom" timestamp="1577726980678">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1921" height="356" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1577452991627" />
-    <state width="1921" height="356" key="GridCell.Tab.0.center" timestamp="1577452991627">
+    <state width="1921" height="288" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1577726980678" />
+    <state width="1921" height="288" key="GridCell.Tab.0.center" timestamp="1577726980678">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1921" height="356" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1577452991627" />
-    <state width="1921" height="356" key="GridCell.Tab.0.left" timestamp="1577452991627">
+    <state width="1921" height="288" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1577726980678" />
+    <state width="1921" height="288" key="GridCell.Tab.0.left" timestamp="1577726980677">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1921" height="356" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1577452991627" />
-    <state width="1921" height="356" key="GridCell.Tab.0.right" timestamp="1577452991627">
+    <state width="1921" height="288" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1577726980677" />
+    <state width="1921" height="288" key="GridCell.Tab.0.right" timestamp="1577726980678">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1921" height="356" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1577452991627" />
+    <state width="1921" height="288" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1577726980678" />
     <state width="1921" height="356" key="GridCell.Tab.1.bottom" timestamp="1577452991627">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
